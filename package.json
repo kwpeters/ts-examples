@@ -4,6 +4,7 @@
   "description": "Examples of TypeScript constructs",
   "main": "index.js",
   "scripts": {
+    "build": "rm -rf ./dist/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/kwpeters/ts-examples#readme",
   "devDependencies": {
+    "tslint": "^5.4.3",
+    "tslint-eslint-rules": "^4.1.1",
     "typescript": "^2.3.4"
   }
 }

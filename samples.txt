@@ -1,0 +1,11 @@
+class
+
+string literal types
+enums
+defining object types
+tuples
+union types
+nullable types
+interface
+generics
+intersection types
